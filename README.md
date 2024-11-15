@@ -1,0 +1,1 @@
+La página consiste en un ecommerce de venta de camisetas de fútbol. El usuario puede comprar camisetas, ver reseñas de otros clientes y contactarse con los propietarios de la página si así lo desea.
