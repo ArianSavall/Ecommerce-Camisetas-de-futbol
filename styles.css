@@ -1,0 +1,30 @@
+.foto-perfil{
+    border-radius: 50%; 
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100px;
+} 
+
+.imagen-fondo{ 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.bombonera{
+    background-image: url(Imagenes/bombonera.jpg);
+}
+
+.cilindro{
+    background-image: url(Imagenes/cilindro.jpg);
+}
+
+.old-trafford{
+    background-image: url(Imagenes/old_trafford.jpg);
+}
+.titulo{
+    font-family: "Righteous", sans-serif;
+    color: #ddd;
+    text-shadow: 3px 2px 1px rgba(126,123,123,0.75);
+    font-weight: 400;
+    font-style: normal;
+}
