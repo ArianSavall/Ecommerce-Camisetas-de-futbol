@@ -28,3 +28,18 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.header{
+    position: sticky;
+    top: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
