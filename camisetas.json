@@ -1,0 +1,22 @@
+[
+{
+    "title": "Camiseta Boca Titular",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "Imagenes/camiseta_boca_titular.png"
+},
+{
+    "title": "Camiseta River Titular",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "Imagenes/camiseta_river_titular.png"
+},
+{
+    "title": "Camiseta Argentina Titular",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "Imagenes/camiseta_argentina_titular.png"
+},
+{
+    "title": "Camiseta Lanús Titular",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "Imagenes/camiseta_lanus.png"
+}
+]

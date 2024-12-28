@@ -14,7 +14,7 @@
     <header class="mb-5 header">
         <nav class="d-flex navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Ecommerce Generico</a>
+              <a class="navbar-brand" href="index.html">Ecommerce AFA</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -40,32 +40,40 @@
             <h1 class="text-center mb-3 titulo">Productos</h1>
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="card-group">
-                    <div class="card">
-                        <img src="Imagenes/camiseta_boca_titular.png" class="card-img-top m-2" alt="camiseta_boca_titular.png">
+                    <div class="card mx-3" style="width: 18rem;">
+                        <img src="Imagenes/camiseta_boca_titular.png" class="card-img-top" alt="camiseta_boca_titular.png">
                         <div class="card-body m-2">
                         <h5 class="card-title">Camiseta Boca Titular</h5>
                         <p class="card-text">Talles: S, M, L, XL</p>
                         <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="Imagenes/camiseta_river_titular.png" class="card-img-top mt-2" alt="camiseta_river_titular.png">
+                    <div class="card mx-3" style="width: 18rem;">
+                        <img src="Imagenes/camiseta_river_titular.png" class="card-img-top" alt="camiseta_river_titular.png">
                         <div class="card-body m-2">
-                        <h5 class="card-title">Camiseta River Titular</h5>
+                        <h5 class="card-title" id="camRiverTitulo">Camiseta River Titular</h5>
                         <p class="card-text">Talles: S, M, L, XL</p>
-                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+
+                        <script>
+                          function cambiarTexto(){
+                            var title = document.getElementById("camRiverTitulo")
+                            title.innerHTML = "Gallina puta sos de la B"
+                          }
+                        </script>
+                        <button onclick="cambiarTexto()" class="btn btn-primary">Agregar al carrito</button>
+                        
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="Imagenes/camiseta_argentina_titular.webp" class="card-img-top mt-2" alt="...">
+                    <div class="card mx-3" style="width: 18rem;">
+                        <img src="Imagenes/camiseta_argentina_titular.webp" class="card-img-top" alt="...">
                         <div class="card-body m-2">
                         <h5 class="card-title">Camiseta Argentina Titular</h5>
                         <p class="card-text">Talles: S, M, L, XL</p>
                         <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="Imagenes/camiseta_lanus.png" class="card-img-top mt-2" alt="...">
+                    <div class="card mx-3" style="width: 18rem;">
+                        <img src="Imagenes/camiseta_lanus.png" class="card-img-top" alt="...">
                         <div class="card-body m-2">
                         <h5 class="card-title">Camiseta Lanús</h5>
                         <p class="card-text">Talles: S, M, L, XL</p>
@@ -76,9 +84,7 @@
                 </div>
                 
             </div>
-        </section>
-        
-        
+        </section> 
     </main>
 
     <footer class="footer bg-body-tertiary">
