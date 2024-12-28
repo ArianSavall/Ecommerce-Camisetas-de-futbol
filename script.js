@@ -18,5 +18,21 @@ function validateContactForm(){
 }
 
 function getAllCamisetasFromJson(){
-    
+    fetch("camisetas.json").then((response)=> response.json()).then((data) => {
+        const camisetasContainer = document.getElementById("camisetas-container");
+        data.forEach(camiseta => {
+            camisetasContainer.innerHTML += `
+            <div class="card mx-3" style="width: 18rem;">
+                        <img src="${camiseta.image}" class="card-img-top" alt="${camiseta.title}">
+                        <div class="card-body m-2">
+                        <h5 class="card-title">${camiseta.title}</h5>
+                        <p class="card-text">Precio: $${camiseta.price} </p>
+                        <p class="card-text">Talles: ${camiseta.sizes}</p>
+                        <button class="btn btn-primary">Agregar al carrito</button>
+                        <button class="btn btn-secondary">+Info</button>
+                        </div>
+                    </div>
+            `
+        });
+    }).catch((error) => console.error("Error al obtener las camisetas:", error));
 }

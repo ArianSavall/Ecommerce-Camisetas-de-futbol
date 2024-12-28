@@ -2,21 +2,25 @@
 {
     "title": "Camiseta Boca Titular",
     "sizes": ["S", "M", "L", "XL"],
+    "price": 80000,
     "image": "Imagenes/camiseta_boca_titular.png"
 },
 {
     "title": "Camiseta River Titular",
     "sizes": ["S", "M", "L", "XL"],
+    "price": 70000,
     "image": "Imagenes/camiseta_river_titular.png"
 },
 {
     "title": "Camiseta Argentina Titular",
     "sizes": ["S", "M", "L", "XL"],
-    "image": "Imagenes/camiseta_argentina_titular.png"
+    "price": 90000,
+    "image": "Imagenes/camiseta_argentina_titular.webp"
 },
 {
     "title": "Camiseta Lanús Titular",
     "sizes": ["S", "M", "L", "XL"],
+    "price": 50000,
     "image": "Imagenes/camiseta_lanus.png"
 }
 ]
