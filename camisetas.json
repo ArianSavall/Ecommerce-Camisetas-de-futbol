@@ -1,26 +1,34 @@
 [
 {
+    "id": 1,
     "title": "Camiseta Boca Titular",
     "sizes": ["S", "M", "L", "XL"],
     "price": 80000,
-    "image": "Imagenes/camiseta_boca_titular.png"
+    "image": "Imagenes/camiseta_boca_titular.png",
+    "descripcion": "La camiseta que usa Benedetto!!"
 },
 {
+    "id": 2,
     "title": "Camiseta River Titular",
     "sizes": ["S", "M", "L", "XL"],
     "price": 70000,
-    "image": "Imagenes/camiseta_river_titular.png"
+    "image": "Imagenes/camiseta_river_titular.png",
+    "descripcion": "La camiseta que usa Pezzella!!"
 },
 {
+    "id": 3,
     "title": "Camiseta Argentina Titular",
     "sizes": ["S", "M", "L", "XL"],
     "price": 90000,
-    "image": "Imagenes/camiseta_argentina_titular.webp"
+    "image": "Imagenes/camiseta_argentina_titular.webp",
+    "descripcion": "La camiseta que usa Messi!!"
 },
 {
+    "id": 4,
     "title": "Camiseta Lanús Titular",
     "sizes": ["S", "M", "L", "XL"],
     "price": 50000,
-    "image": "Imagenes/camiseta_lanus.png"
+    "image": "Imagenes/camiseta_lanus.png",
+    "descripcion": "La camiseta que usa Izquierdoz!!"
 }
 ]
